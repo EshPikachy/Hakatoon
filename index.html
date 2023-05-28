@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./burger.css">
+    <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css">
+  </head>
+  <body>
+    <header>
+      <div class="container header__con">
+        <div class="header__nav">
+          <img class="logosite"
+            src="https://seeklogo.com/images/M/mugiwara-logo-303FD55C54-seeklogo.com.png"
+            alt=""
+            
+          />
+          <ul class="nav">
+            <li class="headernav"><a href="#main">Main</a></li>
+            <li class="headernav"><a href="#strawhats">Strawhats</a></li>
+            <li class="headernav"><a href="#moments">Moments</a></li>
+            <li class="headernav"><a href="#products">Categories</a></li>
+            <li class="headernav"><a href="#contacts">Contacts</a></li>
+            <!-- <li class="headernav"><a href=""></a></li> -->
+          </ul>
+          <div class="mobile-btn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="backdrop"></div>
+    </header>
+    <section id="main">
+      <div class="main__video">
+        <div class="video">
+          <video
+            class="mainvid"
+            src="./stars_-_82360 (1440p).mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+      </div>
+      <div class="main__content">
+        <div class="container main__con">
+          <div class="main__wrap">
+            <h1>GOMU-GOMU-NO...</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem
+              ipsum sequi sunt enim magnam voluptatibus distinctio illo corporis
+              non nihil?
+            </p>
+            <button class="modalopener">Punch</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <form>
+      <div class="modalBackdrop">
+        <div class="modal">
+          <div class="modalHeader">
+            <h2>Send us message</h2>
+            <p class="modalCloseButton">♰</p>
+          </div>
+          <div class="modalContent">
+            <input
+              class="inputss"
+              type="text"
+              placeholder="Name"
+              id="firstinput"
+            />
+            <input
+              class="inputss"
+              type="text"
+              placeholder="Password"
+              id="secondinput"
+            />
+            <button type="submit" class="modalApplyButton">APPLY</button>
+          </div>
+          <div class="message"></div>
+        </div>
+      </div>
+    </form>
+    <section id="strawhats">
+      <div class="container categories__con">
+        <h2>Info of each StrawHat</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section id="accordionSection">
+      <div class="container">
+        <div class="accordion">
+          <div class="row output"></div>
+        </div>
+      </div>
+    </section>
+    <section id="moments">
+      <div class="container mom__con">
+        <h2>Best Moments</h2>
+        <div class="moments__row">
+        </div>
+    </section>
+    <section id="products">
+      <div class="container">
+        <div class="searchbar">
+          <img src="https://seeklogo.com/images/M/mugiwara-logo-303FD55C54-seeklogo.com.png" alt="">
+          <input class="searchbarinput" type="text" placeholder="Search here...">
+        </div>
+        <div class="dftypeswrap">
+
+        </div>
+        
+        
+        <div class="row df__row">
+
+        </div>
+      </div>
+    </section>
+  <section id="contacts">
+    <div class="container">
+      <h2>Our Address</h2>
+          <div class="map__wrap">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adfdfa60acc4d3ffbc2d8d772d63fd99fe7f9092373c61b270ee7ae0f077d3039&amp;width=749&amp;height=639&amp;lang=ru_RU&amp;scroll=true"></script>
+            <!-- <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adfdfa60acc4d3ffbc2d8d772d63fd99fe7f9092373c61b270ee7ae0f077d3039&amp;width=1400&amp;height=639&amp;lang=ru_RU&amp;scroll=true"></script> -->
+            <!-- <a class="dg-widget-link" href="http://2gis.kg/bishkek/firm/70000001047681399/center/74.60379838943483,42.869673865210395/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Бишкека</a><div class="dg-widget-link"><a href="http://2gis.kg/bishkek/center/74.603789,42.86924/zoom/16/routeTab/rsType/bus/to/74.603789,42.86924╎ITC Bootcamp, образовательный центр?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до ITC Bootcamp, образовательный центр</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"borderColor":"#a3a3a3","pos":{"lat":42.869673865210395,"lon":74.60379838943483,"zoom":16},"opt":{"city":"bishkek"},"org":[{"id":"70000001047681399"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript> -->
+          </div>
+              <h2>Contacts</h2>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <p>Number: +123456789</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <p>Email: info@example.com</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <p>Telegram: chekelovvskiy</p>
+                </div>
+              </div>
+              <div class="contact-form">
+                <h3>Leave us a message</h3>
+                <form id="contactme">
+                  <input class="contactmeinput1" type="text" placeholder="Your name" required>
+                  <input class="contactmeinput2" type="email" placeholder="Your email" required>
+                  <textarea class="textarea" placeholder="Your messsage" required></textarea>
+                  <button>Send</button>
+                </form>
+              </div>  
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="footer__box">
+                    <h4>About us:</h4>
+                    <ul class="footer__ul">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="footer__box">
+                    <h4>Meaning:</h4>
+                    <ul class="footer__ul">
+                        <li>Lorem, ipsum dolor.</li>
+                        <li>Lorem ipsum dolor sit.</li>
+                        <li>Lorem, ipsum dolor.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="footer__box">
+                    <h4>Social sites:</h4>
+                    <ul class="footer__ul social">
+                        <li><a  target="_blank" href="https://www.facebook.com/">
+                          <svg class="facebook socials" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="40" height="40">
+                            <g>
+                              <path d="M24,12.073c0,5.989-4.394,10.954-10.13,11.855v-8.363h2.789l0.531-3.46H13.87V9.86c0-0.947,0.464-1.869,1.95-1.869h1.509   V5.045c0,0-1.37-0.234-2.679-0.234c-2.734,0-4.52,1.657-4.52,4.656v2.637H7.091v3.46h3.039v8.363C4.395,23.025,0,18.061,0,12.073   c0-6.627,5.373-12,12-12S24,5.445,24,12.073z"/>
+                            </g>
+                            </svg>
+                            
+                        </a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/">
+                          <svg class="instagram socials" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="40" height="40">
+                            <g>
+                              <path d="M12,2.162c3.204,0,3.584,0.012,4.849,0.07c1.308,0.06,2.655,0.358,3.608,1.311c0.962,0.962,1.251,2.296,1.311,3.608   c0.058,1.265,0.07,1.645,0.07,4.849c0,3.204-0.012,3.584-0.07,4.849c-0.059,1.301-0.364,2.661-1.311,3.608   c-0.962,0.962-2.295,1.251-3.608,1.311c-1.265,0.058-1.645,0.07-4.849,0.07s-3.584-0.012-4.849-0.07   c-1.291-0.059-2.669-0.371-3.608-1.311c-0.957-0.957-1.251-2.304-1.311-3.608c-0.058-1.265-0.07-1.645-0.07-4.849   c0-3.204,0.012-3.584,0.07-4.849c0.059-1.296,0.367-2.664,1.311-3.608c0.96-0.96,2.299-1.251,3.608-1.311   C8.416,2.174,8.796,2.162,12,2.162 M12,0C8.741,0,8.332,0.014,7.052,0.072C5.197,0.157,3.355,0.673,2.014,2.014   C0.668,3.36,0.157,5.198,0.072,7.052C0.014,8.332,0,8.741,0,12c0,3.259,0.014,3.668,0.072,4.948c0.085,1.853,0.603,3.7,1.942,5.038   c1.345,1.345,3.186,1.857,5.038,1.942C8.332,23.986,8.741,24,12,24c3.259,0,3.668-0.014,4.948-0.072   c1.854-0.085,3.698-0.602,5.038-1.942c1.347-1.347,1.857-3.184,1.942-5.038C23.986,15.668,24,15.259,24,12   c0-3.259-0.014-3.668-0.072-4.948c-0.085-1.855-0.602-3.698-1.942-5.038c-1.343-1.343-3.189-1.858-5.038-1.942   C15.668,0.014,15.259,0,12,0z"/>
+                              <path d="M12,5.838c-3.403,0-6.162,2.759-6.162,6.162c0,3.403,2.759,6.162,6.162,6.162s6.162-2.759,6.162-6.162   C18.162,8.597,15.403,5.838,12,5.838z M12,16c-2.209,0-4-1.791-4-4s1.791-4,4-4s4,1.791,4,4S14.209,16,12,16z"/>
+                              <circle cx="18.406" cy="5.594" r="1.44"/>
+                            </g>
+                            </svg>
+                        </a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/">
+                          <svg class="youtube socials" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24"style="enable-background:new 0 0 24 24;" xml:space="preserve" width="40" height="40">
+                            <g id="XMLID_184_">
+                              <path d="M23.498,6.186c-0.276-1.039-1.089-1.858-2.122-2.136C19.505,3.546,12,3.546,12,3.546s-7.505,0-9.377,0.504   C1.591,4.328,0.778,5.146,0.502,6.186C0,8.07,0,12,0,12s0,3.93,0.502,5.814c0.276,1.039,1.089,1.858,2.122,2.136   C4.495,20.454,12,20.454,12,20.454s7.505,0,9.377-0.504c1.032-0.278,1.845-1.096,2.122-2.136C24,15.93,24,12,24,12   S24,8.07,23.498,6.186z M9.546,15.569V8.431L15.818,12L9.546,15.569z"/>
+                            </g>
+                            </svg>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="//code.jivo.ru/widget/Wakgh7HUbj" async></script>
+    <script src="./burger.js"></script>
+    <script src="./acccordion.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./script.js"></script>
+
+  </body>
+</html>
