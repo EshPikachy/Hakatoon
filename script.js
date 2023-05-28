@@ -130,13 +130,10 @@ mugiwaravideo.forEach((el) => {
   col.append(box);
   moments__row.append(col);
 
-  // vid.addEventListener('click',()=>{
-
-  // })
 
   vid.addEventListener("mouseover", () => {
     vid.play();
-
+    vid.muted = true;
     vid.style.transform = "scale(1.4)";
     vid.style.transition = "0.5s";
     vid.style.borderRadius = "1px";
@@ -387,10 +384,6 @@ const fouremperors = [
 
 // })
 
-const contactme = document.querySelector("#contactme");
-const input1 = document.querySelector(".contactmeinput1");
-const input2 = document.querySelector(".contactmeinput2");
-const textarea = document.querySelector(".textarea");
 
 
 
